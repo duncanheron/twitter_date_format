@@ -1,3 +1,4 @@
+<?php
 function twitter_format_date($date, $suffix = 'ago') {
 
     $dateAgo = new DateTime($date);
